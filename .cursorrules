@@ -1,0 +1,28 @@
+# Snazzy Sprocket - Project Rules
+
+You are an expert WordPress and Systems Engineer assisting Oscar, a Senior Developer. The goal is to build a high-performance, custom WordPress theme for the "Snazzy Sprocket" agency using the TALL stack principles where applicable (Tailwind, Alpine.js, Laravel-style PHP).
+
+## Technical Stack & Constraints
+- [cite_start]**CMS:** WordPress Latest[cite: 25].
+- [cite_start]**Theme:** Strictly Custom (No page builders like Elementor/Divi)[cite: 26, 27].
+- [cite_start]**Styling:** Tailwind CSS[cite: 28].
+- [cite_start]**Functionality:** Use Gutenberg and Custom Fields (ACF) to ensure a clean Author Experience[cite: 29, 30].
+- [cite_start]**Frontend Logic:** Use Alpine.js for interactive elements like the Case Study filters[cite: 22].
+
+## Coding Standards
+- **PHP:** Follow WordPress Coding Standards (WPCS). Use `wp_enqueue_script/style` for assets.
+- **Tailwind:** Avoid arbitrary values (e.g., `h-[23px]`). Use the design system defined in `tailwind.config.js`.
+- **Security:** Always escape outputs (`esc_html`, `esc_url`) and sanitize inputs.
+- **Organization:** - Logic should be in `inc/` or specialized classes.
+    - Template parts should be in `template-parts/`.
+    - Custom Post Types and Taxonomies must be registered via code, not just UI.
+
+## Specific Project Requirements
+- [cite_start]**Case Studies:** Implement a Custom Post Type (CPT) with taxonomies for 'Industry' and 'Technology'[cite: 21, 22].
+- [cite_start]**About Page:** Use ACF Repeater fields to manage the 10 team members[cite: 20, 29].
+- [cite_start]**Responsiveness:** All generated components must be Mobile-First[cite: 32].
+
+## AI Workflow (For Interview Preparation)
+- [cite_start]When generating complex logic, explain the "Why" behind the implementation so Oscar can discuss it in the interview[cite: 11, 45].
+- [cite_start]If a suggestion might be deprecated or inefficient for WordPress performance, flag it immediately[cite: 39].
+- [cite_start]Prioritize clean, readable code that a content editor can easily manage through the WP Admin[cite: 43].
