@@ -14,8 +14,8 @@ get_header(); ?>
                     <span class="font-['DM_Sans'] font-semibold text-[12px] leading-[19.8px] tracking-[1.8px] uppercase text-[#00D4AA] mb-4 block">
                         Award-winning digital agency
                     </span>
-                    <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter leading-[1.1] mb-6">
-                        We engineer websites that <span class="text-teal-400">drive results</span>
+                    <h1 class="font-['Syne'] font-extrabold text-[62px] leading-[65.1px] tracking-[-1.86px] text-white mb-6">
+                        We engineer websites that <span class="text-[#00D4AA]">drive results</span>
                     </h1>
                     <p class="text-lg text-gray-400 leading-relaxed mb-10">
                         Snazzy Sprocket crafts high-performance digital experiences for ambitious brands. Strategy, design, and engineering — all under one roof.
