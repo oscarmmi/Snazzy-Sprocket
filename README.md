@@ -22,7 +22,6 @@
 ### My AI Stack:
 * **Google AI Ecosystem:** Utilized **Gemini** and **Gemini CLI** for high-level architectural brainstorming, logic validation, and technical documentation.
 * **Orchestration & Agents:** Employed **AntiGravity** as the primary orchestration layer to manage local agentic tasks, alongside **Jules** for specialized code analysis and refactoring.
-* [cite_start]**Coding Assistance:** Leveraged **Cursor**, **Claude**, and **GitHub Copilot** for real-time pair programming and scaffolding repetitive boilerplate[cite: 34, 37].
 
 ### Strategic Implementation:
 * [cite_start]**Scaffolding:** Accelerated the creation of PHP CPT registrations, taxonomies, and ACF field groups[cite: 37].
