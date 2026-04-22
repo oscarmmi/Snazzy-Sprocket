@@ -58,7 +58,7 @@ get_header(); ?>
             <div class="max-w-3xl mb-16">
                 <span class="font-['DM_Sans'] font-bold text-[11px] leading-[18.15px] tracking-[2.2px] uppercase text-[#009B7D] mb-4 block">What we do</span>
                 <h2 class="font-['Syne'] font-extrabold text-[44px] leading-[48.4px] tracking-[-1.32px] text-[#0B0F1A] mb-6">Services built for growth</h2>
-                <p class="text-lg text-gray-600">From concept to launch and beyond, we deliver end-to-end digital solutions that move the needle.</p>
+                <p class="font-['DM_Sans'] font-normal text-[16px] leading-[28px] tracking-[0px] text-[#6B7394]">From concept to launch and beyond, we deliver end-to-end digital solutions that move the needle.</p>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
