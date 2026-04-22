@@ -12,13 +12,19 @@ services:
       MYSQL_PASSWORD: dev_password
     volumes:
       - db_data:/var/lib/mysql
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot_password"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
 
   wordpress:
     build: .
     container_name: snazzy_wp
     depends_on:
-      - db
+      db:
+        condition: service_healthy
     ports:
       - "8080:80"
     restart: always
@@ -27,8 +33,10 @@ services:
       WORDPRESS_DB_USER: oscar_dev
       WORDPRESS_DB_PASSWORD: dev_password
       WORDPRESS_DB_NAME: snazzy_db
+      MYSQL_ROOT_PASSWORD: root_password
     volumes:
       - ./src:/var/www/html
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
 
 volumes:
   db_data:
