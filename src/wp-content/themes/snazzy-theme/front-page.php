@@ -171,9 +171,9 @@ get_header(); ?>
 
     <section class="container mx-auto px-4 lg:px-8 py-20">
         <div class="bg-[#111827] text-center py-24 px-4 rounded-lg shadow-2xl">
-            <h2 class="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-4">Ready to build something great?</h2>
-            <p class="text-gray-400 text-lg mb-10">Let's talk about your next project. We're here to help you ship faster and smarter.</p>
-            <a href="/contact" class="inline-block bg-teal-500 hover:bg-teal-400 text-gray-950 font-bold px-8 py-4 rounded transition duration-300">
+            <h2 class="font-['Syne'] font-extrabold text-[36px] leading-[39.6px] tracking-[-0.72px] text-white text-center mb-4">Ready to build something great?</h2>
+            <p class="font-['DM_Sans'] font-normal text-[16px] leading-[26.4px] tracking-[0px] text-[#6B7394] text-center mb-10">Let's talk about your next project. We're here to help you ship faster and smarter.</p>
+            <a href="/contact" class="inline-block bg-[#00D4AA] text-[#0B0F1A] font-['DM_Sans'] font-bold text-[13px] leading-[21.45px] tracking-[0.39px] uppercase px-8 py-4 rounded-[2px] transition-colors hover:bg-[#0B0F1A] hover:text-[#00D4AA]">
                 START A CONVERSATION &rarr;
             </a>
         </div>
