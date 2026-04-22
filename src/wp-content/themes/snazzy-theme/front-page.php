@@ -100,8 +100,8 @@ get_header(); ?>
         <div class="container mx-auto px-4 lg:px-8">
             <div class="text-center max-w-2xl mx-auto mb-16">
                 <span class="font-['DM_Sans'] font-bold text-[11px] leading-[18.15px] tracking-[2.2px] uppercase text-[#009B7D] mb-4 block text-center">Featured Work</span>
-                <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-6">Case studies that speak for themselves</h2>
-                <p class="text-lg text-gray-600">A selection of recent projects where strategy met execution — and the results exceeded expectations.</p>
+                <h2 class="font-['Syne'] font-extrabold text-[44px] leading-[48.4px] tracking-[-1.32px] text-[#0B0F1A] mb-6 text-center">Case studies that speak for themselves</h2>
+                <p class="font-['DM_Sans'] font-normal text-[16px] leading-[28px] tracking-[0px] text-[#6B7394] text-center">A selection of recent projects where strategy met execution — and the results exceeded expectations.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
