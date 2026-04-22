@@ -43,7 +43,7 @@
 1.  **Clone the repository.**
 2.  **Ensure Docker is running.**
 3.  **Run the containers:** ```bash
-    docker-compose up -d
+    docker compose up -d --build
     ```
     *(Note: The database will automatically seed on the first run using the included `init.sql` file).*
 4.  **Access the frontend:** Navigate to `http://localhost:8080`.
