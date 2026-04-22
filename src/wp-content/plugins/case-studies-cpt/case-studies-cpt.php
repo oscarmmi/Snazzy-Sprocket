@@ -96,6 +96,7 @@ function custom_register_case_studies_and_taxonomies() {
         'hierarchical'       => false,
         'menu_position'      => 5,
         'menu_icon'          => 'dashicons-portfolio',
+        'taxonomies'         => array( 'industry', 'technology' ),
         'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'custom-fields', 'revisions' ),
         'show_in_rest'       => true, // Habilita Gutenberg
     );
