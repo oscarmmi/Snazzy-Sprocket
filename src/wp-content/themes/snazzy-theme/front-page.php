@@ -21,7 +21,7 @@ get_header(); ?>
                         Snazzy Sprocket crafts high-performance digital experiences for ambitious brands. Strategy, design, and engineering — all under one roof.
                     </p>
                     <div class="flex flex-wrap gap-4">
-                        <a href="#featured-work" class="bg-teal-500 hover:bg-teal-400 text-gray-950 font-bold px-8 py-4 rounded transition duration-300 flex items-center">
+                        <a href="#featured-work" class="bg-[#00D4AA] text-[#0B0F1A] font-['DM_Sans'] font-bold text-[13px] leading-[21.45px] tracking-[0.52px] uppercase px-6 py-2 rounded-[2px] transition-colors border border-gray-800 hover:bg-[#0B0F1A] hover:text-[#00D4AA] flex items-center">
                             VIEW OUR WORK &rarr;
                         </a>
                         <a href="/contact" class="border border-gray-600 hover:border-white text-white font-bold px-8 py-4 rounded transition duration-300">
