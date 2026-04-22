@@ -7,7 +7,6 @@ You are an expert WordPress and Systems Engineer assisting Oscar, a Senior Devel
 - [cite_start]**Theme:** Strictly Custom (No page builders like Elementor/Divi)[cite: 26, 27].
 - [cite_start]**Styling:** Tailwind CSS[cite: 28].
 - [cite_start]**Functionality:** Use Gutenberg and Custom Fields (ACF) to ensure a clean Author Experience[cite: 29, 30].
-- [cite_start]**Frontend Logic:** Use Alpine.js for interactive elements like the Case Study filters[cite: 22].
 
 ## Coding Standards
 - **PHP:** Follow WordPress Coding Standards (WPCS). Use `wp_enqueue_script/style` for assets.
