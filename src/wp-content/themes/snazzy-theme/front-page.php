@@ -33,19 +33,19 @@ get_header(); ?>
                 <div class="grid grid-cols-1 gap-4 max-w-[380px]">
                     <div class="bg-[#1F2937] p-8 rounded border border-gray-800">
                         <h3 class="font-['Syne'] font-extrabold text-[36px] leading-[59.4px] tracking-[-0.72px] text-white mb-1">120+</h3>
-                        <p class="text-gray-400 text-sm">Projects delivered</p>
+                        <p class="font-['DM_Sans'] font-medium text-[13px] leading-[21.45px] tracking-[0px] text-[#6B7394]">Projects delivered</p>
                     </div>
                     <div class="bg-[#1F2937] p-8 rounded border border-gray-800">
                         <h3 class="font-['Syne'] font-extrabold text-[36px] leading-[59.4px] tracking-[-0.72px] text-white mb-1">98%</h3>
-                        <p class="text-gray-400 text-sm">Client satisfaction</p>
+                        <p class="font-['DM_Sans'] font-medium text-[13px] leading-[21.45px] tracking-[0px] text-[#6B7394]">Client satisfaction</p>
                     </div>
                     <div class="bg-[#1F2937] p-8 rounded border border-gray-800">
                         <h3 class="font-['Syne'] font-extrabold text-[36px] leading-[59.4px] tracking-[-0.72px] text-white mb-1">8 yrs</h3>
-                        <p class="text-gray-400 text-sm">In business</p>
+                        <p class="font-['DM_Sans'] font-medium text-[13px] leading-[21.45px] tracking-[0px] text-[#6B7394]">In business</p>
                     </div>
                     <div class="bg-[#1F2937] p-8 rounded border border-gray-800">
                         <h3 class="font-['Syne'] font-extrabold text-[36px] leading-[59.4px] tracking-[-0.72px] text-white mb-1">15</h3>
-                        <p class="text-gray-400 text-sm">Industry awards</p>
+                        <p class="font-['DM_Sans'] font-medium text-[13px] leading-[21.45px] tracking-[0px] text-[#6B7394]">Industry awards</p>
                     </div>
                 </div>
 
