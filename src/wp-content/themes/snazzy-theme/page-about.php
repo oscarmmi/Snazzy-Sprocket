@@ -90,80 +90,93 @@ get_header(); ?>
                 </p>
             </div>
 
-            <!-- Team Grid: Using border merge layout similar to services on front-page -->
+            <!-- Team Grid: ACF Individual Groups Loop -->
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 border-t border-l border-gray-200 text-center">
-                <!-- Team Member 1 -->
-                <div class="p-8 border-r border-b border-gray-200">
-                    <div class="w-16 h-16 mx-auto bg-[#00D4AA] text-[#0B0F1A] flex items-center justify-center text-xl font-bold rounded mb-4">JK</div>
-                    <h3 class="font-['Syne'] font-bold text-[18px] text-[#0B0F1A] mb-1">Jordan Klein</h3>
-                    <span class="font-['DM_Sans'] font-bold text-[10px] tracking-widest uppercase text-[#009B7D] block mb-3">Founder & CTO</span>
-                    <p class="font-['DM_Sans'] text-[13px] text-[#6B7394] leading-relaxed">Full-stack developer with 12 years of experience building high-performance systems.</p>
-                </div>
-                <!-- Team Member 2 -->
-                <div class="p-8 border-r border-b border-gray-200">
-                    <div class="w-16 h-16 mx-auto bg-[#4A5278] text-white flex items-center justify-center text-xl font-bold rounded mb-4">SP</div>
-                    <h3 class="font-['Syne'] font-bold text-[18px] text-[#0B0F1A] mb-1">Sarah Patel</h3>
-                    <span class="font-['DM_Sans'] font-bold text-[10px] tracking-widest uppercase text-[#009B7D] block mb-3">Creative Director</span>
-                    <p class="font-['DM_Sans'] text-[13px] text-[#6B7394] leading-relaxed">Award-winning designer with a focus on intuitive user experiences and brand identity.</p>
-                </div>
-                <!-- Team Member 3 -->
-                <div class="p-8 border-r border-b border-gray-200">
-                    <div class="w-16 h-16 mx-auto bg-[#6B7394] text-white flex items-center justify-center text-xl font-bold rounded mb-4">MC</div>
-                    <h3 class="font-['Syne'] font-bold text-[18px] text-[#0B0F1A] mb-1">Marcus Chen</h3>
-                    <span class="font-['DM_Sans'] font-bold text-[10px] tracking-widest uppercase text-[#009B7D] block mb-3">Lead Developer</span>
-                    <p class="font-['DM_Sans'] text-[13px] text-[#6B7394] leading-relaxed">WordPress core contributor. Turns complex requirements into elegant code solutions.</p>
-                </div>
-                <!-- Team Member 4 -->
-                <div class="p-8 border-r border-b border-gray-200">
-                    <div class="w-16 h-16 mx-auto bg-[#009B7D] text-white flex items-center justify-center text-xl font-bold rounded mb-4">AR</div>
-                    <h3 class="font-['Syne'] font-bold text-[18px] text-[#0B0F1A] mb-1">Aisha Rahman</h3>
-                    <span class="font-['DM_Sans'] font-bold text-[10px] tracking-widest uppercase text-[#009B7D] block mb-3">SEO Strategist</span>
-                    <p class="font-['DM_Sans'] text-[13px] text-[#6B7394] leading-relaxed">Data nerd who helps our clients dominate search results and maximize their ROI.</p>
-                </div>
-                <!-- Team Member 5 -->
-                <div class="p-8 border-r border-b border-gray-200">
-                    <div class="w-16 h-16 mx-auto bg-[#0B0F1A] text-white flex items-center justify-center text-xl font-bold rounded mb-4">TN</div>
-                    <h3 class="font-['Syne'] font-bold text-[18px] text-[#0B0F1A] mb-1">Tomás Navarro</h3>
-                    <span class="font-['DM_Sans'] font-bold text-[10px] tracking-widest uppercase text-[#009B7D] block mb-3">Frontend Developer</span>
-                    <p class="font-['DM_Sans'] text-[13px] text-[#6B7394] leading-relaxed">Obsessed with Web Core Vitals and smooth animations. CSS wizard.</p>
-                </div>
+                <?php 
+                $avatar_colors = [
+                    'bg-[#00D4AA] text-[#0B0F1A]', 
+                    'bg-[#4A5278] text-white', 
+                    'bg-[#6B7394] text-white', 
+                    'bg-[#009B7D] text-white', 
+                    'bg-[#0B0F1A] text-white', 
+                    'bg-[#1F2937] text-white'
+                ];
+
+                $has_members = false;
                 
-                <!-- Second Row -->
-                <!-- Team Member 6 -->
-                <div class="p-8 border-r border-b border-gray-200">
-                    <div class="w-16 h-16 mx-auto bg-[#1F2937] text-white flex items-center justify-center text-xl font-bold rounded mb-4">LW</div>
-                    <h3 class="font-['Syne'] font-bold text-[18px] text-[#0B0F1A] mb-1">Lily Wall-Rust</h3>
-                    <span class="font-['DM_Sans'] font-bold text-[10px] tracking-widest uppercase text-[#009B7D] block mb-3">Project Manager</span>
-                    <p class="font-['DM_Sans'] text-[13px] text-[#6B7394] leading-relaxed">Keeps projects on track and stakeholders happy. Certified Scrum Master.</p>
-                </div>
-                <!-- Team Member 7 -->
-                <div class="p-8 border-r border-b border-gray-200">
-                    <div class="w-16 h-16 mx-auto bg-[#00D4AA] text-[#0B0F1A] flex items-center justify-center text-xl font-bold rounded mb-4">DG</div>
-                    <h3 class="font-['Syne'] font-bold text-[18px] text-[#0B0F1A] mb-1">David Glass</h3>
-                    <span class="font-['DM_Sans'] font-bold text-[10px] tracking-widest uppercase text-[#009B7D] block mb-3">Backend Developer</span>
-                    <p class="font-['DM_Sans'] text-[13px] text-[#6B7394] leading-relaxed">Database architect and API integrations expert. Loves complex logic.</p>
-                </div>
-                <!-- Team Member 8 -->
-                <div class="p-8 border-r border-b border-gray-200">
-                    <div class="w-16 h-16 mx-auto bg-[#4A5278] text-white flex items-center justify-center text-xl font-bold rounded mb-4">RJ</div>
-                    <h3 class="font-['Syne'] font-bold text-[18px] text-[#0B0F1A] mb-1">Riley Jones</h3>
-                    <span class="font-['DM_Sans'] font-bold text-[10px] tracking-widest uppercase text-[#009B7D] block mb-3">UI/UX Designer</span>
-                    <p class="font-['DM_Sans'] text-[13px] text-[#6B7394] leading-relaxed">Turns wireframes into beautiful, accessible interfaces. Figma enthusiast.</p>
-                </div>
-                <!-- Team Member 9 -->
-                <div class="p-8 border-r border-b border-gray-200">
-                    <div class="w-16 h-16 mx-auto bg-[#6B7394] text-white flex items-center justify-center text-xl font-bold rounded mb-4">EF</div>
-                    <h3 class="font-['Syne'] font-bold text-[18px] text-[#0B0F1A] mb-1">Elena Fang</h3>
-                    <span class="font-['DM_Sans'] font-bold text-[10px] tracking-widest uppercase text-[#009B7D] block mb-3">Content Strategist</span>
-                    <p class="font-['DM_Sans'] text-[13px] text-[#6B7394] leading-relaxed">Wordsmith who ensures every message resonates with the target audience.</p>
-                </div>
-                <!-- Team Member 10 -->
-                <div class="p-8 border-r border-b border-gray-200">
-                    <div class="w-16 h-16 mx-auto bg-[#009B7D] text-white flex items-center justify-center text-xl font-bold rounded mb-4">NB</div>
-                    <h3 class="font-['Syne'] font-bold text-[18px] text-[#0B0F1A] mb-1">Niko Brooks</h3>
-                    <span class="font-['DM_Sans'] font-bold text-[10px] tracking-widest uppercase text-[#009B7D] block mb-3">Support Engineer</span>
-                    <p class="font-['DM_Sans'] text-[13px] text-[#6B7394] leading-relaxed">Ensures everything runs smoothly post-launch. Master of debugging.</p>
-                </div>
+                // Bucle para iterar sobre los 10 grupos (Ej: 'team_member_1' hasta 'team_member_10')
+                for ( $i = 1; $i <= 10; $i++ ) {
+                    // Intenta buscar con prefijo 'team_member_' o solo 'member_'
+                    $member_group = get_field('team_member_' . $i);
+                    if ( !$member_group ) {
+                        $member_group = get_field('member_' . $i);
+                    }
+
+                    // Si el grupo existe y tiene al menos un nombre
+                    if ( $member_group && !empty($member_group['name']) ) {
+                        $has_members = true;
+                        
+                        $name = $member_group['name'];
+                        $role = $member_group['role'];
+                        $photo = isset($member_group['photo']) ? $member_group['photo'] : '';
+                        $bio = isset($member_group['bio']) ? $member_group['bio'] : '';
+                        
+                        // Extraer URL de la foto (ACF puede devolver un Array, una URL o un ID)
+                        $photo_url = '';
+                        if ( is_array($photo) && isset($photo['url']) ) {
+                            $photo_url = $photo['url'];
+                        } elseif ( is_string($photo) && filter_var($photo, FILTER_VALIDATE_URL) ) {
+                            $photo_url = $photo;
+                        } elseif ( is_numeric($photo) ) {
+                            $photo_url = wp_get_attachment_url($photo);
+                        }
+
+                        // Lógica de Iniciales por si no hay foto
+                        $words = explode(' ', $name);
+                        $initials = '';
+                        foreach( $words as $w ) {
+                            if(!empty($w)) $initials .= strtoupper($w[0]);
+                        }
+                        $initials = substr($initials, 0, 2);
+
+                        $color_class = $avatar_colors[ ($i - 1) % count($avatar_colors) ];
+                ?>
+                    <div class="p-8 border-r border-b border-gray-200">
+                        
+                        <?php if ( $photo_url ) : ?>
+                            <!-- Mostrar Foto de ACF -->
+                            <div class="w-16 h-16 mx-auto mb-4 rounded overflow-hidden">
+                                <img src="<?php echo esc_url($photo_url); ?>" alt="<?php echo esc_attr($name); ?>" class="w-full h-full object-cover">
+                            </div>
+                        <?php else : ?>
+                            <!-- Fallback: Mostrar Iniciales si no hay foto -->
+                            <div class="w-16 h-16 mx-auto <?php echo $color_class; ?> flex items-center justify-center text-xl font-bold rounded mb-4">
+                                <?php echo esc_html( $initials ); ?>
+                            </div>
+                        <?php endif; ?>
+                        
+                        <h3 class="font-['Syne'] font-bold text-[18px] text-[#0B0F1A] mb-1">
+                            <?php echo esc_html( $name ); ?>
+                        </h3>
+                        <span class="font-['DM_Sans'] font-bold text-[10px] tracking-widest uppercase text-[#009B7D] block mb-3">
+                            <?php echo esc_html( $role ); ?>
+                        </span>
+                        <?php if ( $bio ) : ?>
+                        <p class="font-['DM_Sans'] text-[13px] text-[#6B7394] leading-relaxed">
+                            <?php echo esc_html( $bio ); ?>
+                        </p>
+                        <?php endif; ?>
+                    </div>
+                <?php 
+                    }
+                }
+
+                if ( !$has_members ) : 
+                ?>
+                    <div class="col-span-full p-8 text-center text-[#6B7394] font-['DM_Sans'] border-r border-b border-gray-200">
+                        No team members found. Check your ACF Group field names (they should be named 'team_member_1', 'team_member_2', etc.)
+                    </div>
+                <?php endif; ?>
             </div>
         </div>
     </section>
