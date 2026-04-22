@@ -10,7 +10,7 @@ get_header(); ?>
         <div class="container mx-auto px-4 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 
-                <div class="max-w-xl">
+                <div class="max-w-xl px-6 md:px-0">
                     <span class="font-['DM_Sans'] font-semibold text-[12px] leading-[19.8px] tracking-[1.8px] uppercase text-[#00D4AA] mb-4 block">
                         Award-winning digital agency
                     </span>
