@@ -1,0 +1,25 @@
+{
+  "name": "snazzy-sprocket",
+  "version": "1.0.0",
+  "description": "[cite_start]This project is a high-performance, custom-built WordPress site for **Snazzy Sprocket**, a fictional design and development agency[cite: 5]. [cite_start]Developed as part of the Software Engineer Assessment for **Happy Cog**, the site demonstrates a robust CMS architecture, a strictly custom Tailwind CSS-integrated theme, and a sophisticated AI-assisted development workflow[cite: 1, 2, 6].",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/wp-content/themes/snazzy-theme/assets/css/tailwind.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/wp-content/themes/snazzy-theme/assets/css/tailwind.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarmmi/Snazzy-Sprocket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscarmmi/Snazzy-Sprocket/issues"
+  },
+  "homepage": "https://github.com/oscarmmi/Snazzy-Sprocket#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "tailwindcss": "^4.2.4"
+  }
+}
