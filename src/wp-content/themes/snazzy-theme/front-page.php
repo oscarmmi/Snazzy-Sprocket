@@ -11,7 +11,9 @@ get_header(); ?>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 
                 <div class="max-w-xl">
-                    <span class="text-teal-400 font-bold tracking-widest text-sm uppercase mb-4 block">Award-winning digital agency</span>
+                    <span class="font-['DM_Sans'] font-semibold text-[12px] leading-[19.8px] tracking-[1.8px] uppercase text-[#00D4AA] mb-4 block">
+                        Award-winning digital agency
+                    </span>
                     <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter leading-[1.1] mb-6">
                         We engineer websites that <span class="text-teal-400">drive results</span>
                     </h1>
