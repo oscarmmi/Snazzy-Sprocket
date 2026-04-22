@@ -31,50 +31,10 @@ get_header(); ?>
                 <!-- Left Container (70% width) -->
                 <div class="w-full lg:w-[70%]">
                     <div class="bg-white p-8 lg:p-12 rounded border border-gray-200 h-full">
-                        <form action="#" method="POST" class="space-y-6">
-                            <!-- Name fields -->
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                <div>
-                                    <label for="first_name" class="font-['DM_Sans'] font-bold text-[11px] leading-[18.15px] tracking-[1.5px] uppercase text-[#0B0F1A] mb-2 block">First Name</label>
-                                    <input type="text" id="first_name" name="first_name" placeholder="Jane" class="w-full border border-gray-200 rounded-[2px] px-4 py-3 font-['DM_Sans'] text-[15px] text-[#0B0F1A] placeholder-gray-400 focus:outline-none focus:border-[#00D4AA] transition-colors">
-                                </div>
-                                <div>
-                                    <label for="last_name" class="font-['DM_Sans'] font-bold text-[11px] leading-[18.15px] tracking-[1.5px] uppercase text-[#0B0F1A] mb-2 block">Last Name</label>
-                                    <input type="text" id="last_name" name="last_name" placeholder="Smith" class="w-full border border-gray-200 rounded-[2px] px-4 py-3 font-['DM_Sans'] text-[15px] text-[#0B0F1A] placeholder-gray-400 focus:outline-none focus:border-[#00D4AA] transition-colors">
-                                </div>
-                            </div>
-                            
-                            <!-- Email -->
-                            <div>
-                                <label for="email" class="font-['DM_Sans'] font-bold text-[11px] leading-[18.15px] tracking-[1.5px] uppercase text-[#0B0F1A] mb-2 block">Email Address</label>
-                                <input type="email" id="email" name="email" placeholder="jane@company.com" class="w-full border border-gray-200 rounded-[2px] px-4 py-3 font-['DM_Sans'] text-[15px] text-[#0B0F1A] placeholder-gray-400 focus:outline-none focus:border-[#00D4AA] transition-colors">
-                            </div>
-
-                            <!-- Company -->
-                            <div>
-                                <label for="company" class="font-['DM_Sans'] font-bold text-[11px] leading-[18.15px] tracking-[1.5px] uppercase text-[#0B0F1A] mb-2 block">Company</label>
-                                <input type="text" id="company" name="company" placeholder="Acme Corp" class="w-full border border-gray-200 rounded-[2px] px-4 py-3 font-['DM_Sans'] text-[15px] text-[#0B0F1A] placeholder-gray-400 focus:outline-none focus:border-[#00D4AA] transition-colors">
-                            </div>
-
-                            <!-- Project Budget -->
-                            <div>
-                                <label for="budget" class="font-['DM_Sans'] font-bold text-[11px] leading-[18.15px] tracking-[1.5px] uppercase text-[#0B0F1A] mb-2 block">Project Budget</label>
-                                <input type="text" id="budget" name="budget" placeholder="" class="w-full border border-gray-200 rounded-[2px] px-4 py-3 font-['DM_Sans'] text-[15px] text-[#0B0F1A] placeholder-gray-400 focus:outline-none focus:border-[#00D4AA] transition-colors">
-                            </div>
-
-                            <!-- Project Details -->
-                            <div>
-                                <label for="details" class="font-['DM_Sans'] font-bold text-[11px] leading-[18.15px] tracking-[1.5px] uppercase text-[#0B0F1A] mb-2 block">Tell us about your project</label>
-                                <textarea id="details" name="details" rows="5" placeholder="Describe your project goals, timeline, and any specific requirements..." class="w-full border border-gray-200 rounded-[2px] px-4 py-3 font-['DM_Sans'] text-[15px] text-[#0B0F1A] placeholder-gray-400 focus:outline-none focus:border-[#00D4AA] transition-colors resize-none"></textarea>
-                            </div>
-
-                            <!-- Submit Button -->
-                            <div class="pt-4">
-                                <button type="submit" class="w-full bg-[#00D4AA] text-[#0B0F1A] font-['DM_Sans'] font-bold text-[13px] leading-[21.45px] tracking-[0.52px] uppercase py-4 rounded-[2px] transition-colors hover:bg-[#0B0F1A] hover:text-[#00D4AA] flex justify-center items-center gap-2">
-                                    Send Message &rarr;
-                                </button>
-                            </div>
-                        </form>
+                        <!-- Forminator Form Wrapper -->
+                        <div class="contact-form-wrapper">
+                            <?php echo do_shortcode('[forminator_form id="105"]'); ?>
+                        </div>
                     </div>
                 </div>
 
