@@ -17,7 +17,7 @@ get_header(); ?>
                     <h1 class="font-['Syne'] font-extrabold text-[62px] leading-[65.1px] tracking-[-1.86px] text-white mb-6">
                         We engineer websites that <span class="text-[#00D4AA]">drive results</span>
                     </h1>
-                    <p class="text-lg text-gray-400 leading-relaxed mb-10">
+                    <p class="font-['DM_Sans'] font-normal text-[17px] leading-[29.75px] tracking-[0px] text-[#9BA3C2] mb-10">
                         Snazzy Sprocket crafts high-performance digital experiences for ambitious brands. Strategy, design, and engineering — all under one roof.
                     </p>
                     <div class="flex flex-wrap gap-4">
@@ -30,21 +30,21 @@ get_header(); ?>
                     </div>
                 </div>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="grid grid-cols-1 gap-4 max-w-[380px]">
                     <div class="bg-[#1F2937] p-8 rounded border border-gray-800">
-                        <h3 class="text-4xl font-black mb-1">120+</h3>
+                        <h3 class="font-['Syne'] font-extrabold text-[36px] leading-[59.4px] tracking-[-0.72px] text-white mb-1">120+</h3>
                         <p class="text-gray-400 text-sm">Projects delivered</p>
                     </div>
                     <div class="bg-[#1F2937] p-8 rounded border border-gray-800">
-                        <h3 class="text-4xl font-black mb-1">98%</h3>
+                        <h3 class="font-['Syne'] font-extrabold text-[36px] leading-[59.4px] tracking-[-0.72px] text-white mb-1">98%</h3>
                         <p class="text-gray-400 text-sm">Client satisfaction</p>
                     </div>
                     <div class="bg-[#1F2937] p-8 rounded border border-gray-800">
-                        <h3 class="text-4xl font-black mb-1">8 yrs</h3>
+                        <h3 class="font-['Syne'] font-extrabold text-[36px] leading-[59.4px] tracking-[-0.72px] text-white mb-1">8 yrs</h3>
                         <p class="text-gray-400 text-sm">In business</p>
                     </div>
                     <div class="bg-[#1F2937] p-8 rounded border border-gray-800">
-                        <h3 class="text-4xl font-black mb-1">15</h3>
+                        <h3 class="font-['Syne'] font-extrabold text-[36px] leading-[59.4px] tracking-[-0.72px] text-white mb-1">15</h3>
                         <p class="text-gray-400 text-sm">Industry awards</p>
                     </div>
                 </div>
