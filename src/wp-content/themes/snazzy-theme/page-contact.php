@@ -159,6 +159,12 @@ get_header(); ?>
                 </div>
 
             </div>
+
+            <!-- Map Section -->
+            <div class="mt-24 lg:mt-32 w-full">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.552179820522!2d-73.1652665!3d7.0617854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e683e95f623e207%3A0x575fc7d7d89a28a7!2sParroquia%20Santa%20Mar%C3%ADa%20del%20Camino!5e0!3m2!1sen!2sco!4v1776829938085!5m2!1sen!2sco" class="w-full h-[450px] rounded border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
         </div>
     </section>
 </main>
