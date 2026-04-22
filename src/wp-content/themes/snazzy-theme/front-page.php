@@ -55,9 +55,9 @@ get_header(); ?>
 
     <section class="bg-white py-24">
         <div class="container mx-auto px-4 lg:px-8">
-            <div class="max-w-2xl mb-16">
-                <span class="text-teal-500 font-bold tracking-widest text-sm uppercase mb-4 block">What we do</span>
-                <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-6">Services built for growth</h2>
+            <div class="max-w-3xl mb-16">
+                <span class="font-['DM_Sans'] font-bold text-[11px] leading-[18.15px] tracking-[2.2px] uppercase text-[#009B7D] mb-4 block">What we do</span>
+                <h2 class="font-['Syne'] font-extrabold text-[44px] leading-[48.4px] tracking-[-1.32px] text-[#0B0F1A] mb-6">Services built for growth</h2>
                 <p class="text-lg text-gray-600">From concept to launch and beyond, we deliver end-to-end digital solutions that move the needle.</p>
             </div>
             
