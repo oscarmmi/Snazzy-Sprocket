@@ -22,7 +22,7 @@
                             <?php bloginfo( 'name' ); ?>
                         </span>
                     </a>
-                    <p class="text-[#6B7394] text-[14px] leading-[23.8px] max-w-sm">
+                    <p class="font-['DM_Sans'] font-normal text-[14px] leading-[23.8px] tracking-[0px] text-[#4A5278] max-w-sm">
                         High-performance digital experiences for ambitious brands. Based in Philadelphia, working worldwide.
                     </p>
                 </div>
