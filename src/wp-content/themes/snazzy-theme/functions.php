@@ -33,13 +33,13 @@ add_filter( 'nav_menu_css_class', 'snazzy_theme_nav_menu_css_class', 10, 3 );
 function snazzy_theme_nav_menu_link_attributes( $atts, $item, $args ) {
     if ( isset($args->theme_location) && $args->theme_location == 'primary' ) {
         // Base classes
-        $class = 'font-medium text-sm transition-colors ';
+        $class = "font-['DM_Sans'] font-medium text-[14px] leading-[23.1px] tracking-[0.28px] transition-colors ";
         
         // Active state (current page) vs Inactive state
         if ( in_array( 'current-menu-item', $item->classes ) || in_array( 'current-page-ancestor', $item->classes ) ) {
-            $class .= 'text-teal-400';
+            $class .= 'text-[#00D4AA]';
         } else {
-            $class .= 'text-gray-400 hover:text-white';
+            $class .= 'text-[#9BA3C2] hover:text-[#00D4AA]';
         }
 
         $atts['class'] = $class;

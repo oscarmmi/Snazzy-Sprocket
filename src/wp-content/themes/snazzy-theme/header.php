@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Syne:wght@700&display=swap" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 <body <?php body_class('bg-gray-50 text-gray-900 antialiased'); ?>>
@@ -47,16 +47,16 @@
                     // Fallback menu when no menu is assigned to 'primary'
                     ?>
                     <ul class="flex items-center gap-8">
-                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="text-teal-400 font-medium text-sm transition-colors">Home</a></li>
-                        <li><a href="/about" class="text-gray-400 hover:text-white font-medium text-sm transition-colors">About</a></li>
-                        <li><a href="<?php echo esc_url( get_post_type_archive_link( 'case_study' ) ); ?>" class="text-gray-400 hover:text-white font-medium text-sm transition-colors">Case Studies</a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="font-['DM_Sans'] font-medium text-[14px] leading-[23.1px] tracking-[0.28px] text-[#00D4AA] transition-colors">Home</a></li>
+                        <li><a href="/about" class="font-['DM_Sans'] font-medium text-[14px] leading-[23.1px] tracking-[0.28px] text-[#9BA3C2] hover:text-[#00D4AA] transition-colors">About</a></li>
+                        <li><a href="<?php echo esc_url( get_post_type_archive_link( 'case_study' ) ); ?>" class="font-['DM_Sans'] font-medium text-[14px] leading-[23.1px] tracking-[0.28px] text-[#9BA3C2] hover:text-[#00D4AA] transition-colors">Case Studies</a></li>
                     </ul>
                     <?php
                 }
                 ?>
                 
                 <!-- CTA Button -->
-                <a href="/contact" class="bg-teal-400 hover:bg-teal-300 text-gray-950 font-bold px-6 py-2 rounded-[2px] text-xs tracking-widest uppercase transition-colors ml-4">
+                <a href="/contact" class="bg-[#00D4AA] text-[#0B0F1A] font-['DM_Sans'] font-bold text-[13px] leading-[21.45px] tracking-[0.52px] uppercase px-6 py-2 rounded-[2px] transition-colors ml-4 border border-gray-800 hover:bg-[#0B0F1A] hover:text-[#00D4AA]">
                     Get in touch
                 </a>
             </nav>
