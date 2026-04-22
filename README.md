@@ -45,4 +45,8 @@
 3.  **Run the containers:** ```bash
     docker-compose up -d
     ```
-4.  **Access the site:** Navigate to `http://localhost:8080`.
+    *(Note: The database will automatically seed on the first run using the included `init.sql` file).*
+4.  **Access the frontend:** Navigate to `http://localhost:8080`.
+5.  **Access the WordPress Admin:** Navigate to `http://localhost:8080/wp-admin`.
+    * **Username:** `oscarmmi`
+    * **Password:** `5#Z6ZIt8BDrlVLn(9*`
