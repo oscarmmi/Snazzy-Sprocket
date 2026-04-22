@@ -64,32 +64,32 @@ get_header(); ?>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-t border-l border-gray-200">
                 <div class="p-8 border-r border-b border-gray-200 hover:bg-gray-50 transition duration-300 group">
                     <span class="text-gray-300 font-mono text-sm mb-4 block group-hover:text-[#009B7D] transition">01</span>
-                    <h3 class="text-xl font-bold text-[#0B0F1A] mb-3">UX & UI Design</h3>
+                    <h3 class="font-['Syne'] font-bold text-[20px] leading-[22px] tracking-[-0.4px] text-[#0B0F1A] mb-3">UX & UI Design</h3>
                     <p class="text-[#6B7394] leading-relaxed">Research-driven design systems that balance aesthetics with usability. We create interfaces people actually enjoy using.</p>
                 </div>
                 <div class="p-8 border-r border-b border-gray-200 hover:bg-gray-50 transition duration-300 group">
                     <span class="text-gray-300 font-mono text-sm mb-4 block group-hover:text-[#009B7D] transition">02</span>
-                    <h3 class="text-xl font-bold text-[#0B0F1A] mb-3">Custom Development</h3>
+                    <h3 class="font-['Syne'] font-bold text-[20px] leading-[22px] tracking-[-0.4px] text-[#0B0F1A] mb-3">Custom Development</h3>
                     <p class="text-[#6B7394] leading-relaxed">Bespoke WordPress themes and applications built for performance, scalability, and long-term maintainability.</p>
                 </div>
                 <div class="p-8 border-r border-b border-gray-200 hover:bg-gray-50 transition duration-300 group">
                     <span class="text-gray-300 font-mono text-sm mb-4 block group-hover:text-[#009B7D] transition">03</span>
-                    <h3 class="text-xl font-bold text-[#0B0F1A] mb-3">SEO & Strategy</h3>
+                    <h3 class="font-['Syne'] font-bold text-[20px] leading-[22px] tracking-[-0.4px] text-[#0B0F1A] mb-3">SEO & Strategy</h3>
                     <p class="text-[#6B7394] leading-relaxed">Data-backed strategies that improve visibility and convert visitors. Semantic markup and technical SEO baked in from day one.</p>
                 </div>
                 <div class="p-8 border-r border-b border-gray-200 hover:bg-gray-50 transition duration-300 group">
                     <span class="text-gray-300 font-mono text-sm mb-4 block group-hover:text-[#009B7D] transition">04</span>
-                    <h3 class="text-xl font-bold text-[#0B0F1A] mb-3">Managed Hosting</h3>
+                    <h3 class="font-['Syne'] font-bold text-[20px] leading-[22px] tracking-[-0.4px] text-[#0B0F1A] mb-3">Managed Hosting</h3>
                     <p class="text-[#6B7394] leading-relaxed">Enterprise-grade hosting, security monitoring, and ongoing maintenance so you can focus on running your business.</p>
                 </div>
                 <div class="p-8 border-r border-b border-gray-200 hover:bg-gray-50 transition duration-300 group">
                     <span class="text-gray-300 font-mono text-sm mb-4 block group-hover:text-[#009B7D] transition">05</span>
-                    <h3 class="text-xl font-bold text-[#0B0F1A] mb-3">Responsive Engineering</h3>
+                    <h3 class="font-['Syne'] font-bold text-[20px] leading-[22px] tracking-[-0.4px] text-[#0B0F1A] mb-3">Responsive Engineering</h3>
                     <p class="text-[#6B7394] leading-relaxed">Every pixel considered across every breakpoint. Mobile-first development that performs at any screen size.</p>
                 </div>
                 <div class="p-8 border-r border-b border-gray-200 hover:bg-gray-50 transition duration-300 group">
                     <span class="text-gray-300 font-mono text-sm mb-4 block group-hover:text-[#009B7D] transition">06</span>
-                    <h3 class="text-xl font-bold text-[#0B0F1A] mb-3">Accessibility</h3>
+                    <h3 class="font-['Syne'] font-bold text-[20px] leading-[22px] tracking-[-0.4px] text-[#0B0F1A] mb-3">Accessibility</h3>
                     <p class="text-[#6B7394] leading-relaxed">WCAG 2.1 AA compliance built into every project. Inclusive design isn't an afterthought — it's how we work.</p>
                 </div>
             </div>
