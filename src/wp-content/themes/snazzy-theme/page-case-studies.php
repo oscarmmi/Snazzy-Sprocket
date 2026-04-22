@@ -56,15 +56,38 @@ get_header(); ?>
                             
                             <!-- Content -->
                             <div class="p-8 flex-grow flex flex-col">
-                                <!-- Taxonomy: Industry -->
+                                <!-- Taxonomies: Industry & Technology -->
                                 <?php 
                                 $industries = get_the_terms( get_the_ID(), 'industry' );
-                                if ( $industries && ! is_wp_error( $industries ) ) : 
-                                    $industry_names = wp_list_pluck( $industries, 'name' );
+                                $technologies = get_the_terms( get_the_ID(), 'technology' );
+                                
+                                $all_terms = array();
+                                if ( $industries && ! is_wp_error( $industries ) ) {
+                                    $all_terms = array_merge($all_terms, wp_list_pluck( $industries, 'name' ));
+                                }
+                                if ( $technologies && ! is_wp_error( $technologies ) ) {
+                                    $all_terms = array_merge($all_terms, wp_list_pluck( $technologies, 'name' ));
+                                }
+
+                                if ( ! empty( $all_terms ) ) : 
                                 ?>
-                                    <span class="font-['DM_Sans'] font-bold text-[10px] tracking-widest uppercase text-[#009B7D] mb-3 block">
-                                        <?php echo esc_html( join( ', ', $industry_names ) ); ?>
-                                    </span>
+                                    <div class="flex flex-wrap gap-x-3 gap-y-1 mb-4">
+                                        <?php 
+                                        $index = 0;
+                                        foreach ( $all_terms as $term_name ) : 
+                                            // The first item gets the primary teal bg and white text
+                                            // The rest get the light blueish bg and grey text
+                                            $bg_class = ( $index === 0 ) ? 'bg-[#009B7D]' : 'bg-[#F4F6FB]';
+                                            $text_class = ( $index === 0 ) ? 'text-white' : 'text-[#6B7394]';
+                                        ?>
+                                            <span class="font-['DM_Sans'] font-bold text-[10px] tracking-widest uppercase px-2 py-1 rounded-sm <?php echo $bg_class . ' ' . $text_class; ?>">
+                                                <?php echo esc_html( $term_name ); ?>
+                                            </span>
+                                        <?php 
+                                            $index++;
+                                        endforeach; 
+                                        ?>
+                                    </div>
                                 <?php endif; ?>
 
                                 <!-- Title -->
