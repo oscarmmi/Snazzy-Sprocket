@@ -47,5 +47,3 @@
     *(Note: The database will automatically seed on the first run using the included `init.sql` file).*
 4.  **Access the frontend:** Navigate to `http://localhost:8080`.
 5.  **Access the WordPress Admin:** Navigate to `http://localhost:8080/wp-admin`.
-    * **Username:** `oscarmmi`
-    * **Password:** `5#Z6ZIt8BDrlVLn(9*`
