@@ -1,7 +1,7 @@
 # Snazzy Sprocket Agency Site 🚀
 
 ## Project Overview
-This project is a high-performance, custom-built WordPress site for **Snazzy Sprocket**, a fictional design and development agency[cite: 5]. [cite_start]Developed as part of the Software Engineer Assessment for **Happy Cog**, the site demonstrates a robust CMS architecture, a strictly custom Tailwind CSS-integrated theme, and a sophisticated AI-assisted development workflow.
+This project is a high-performance, custom-built WordPress site for **Snazzy Sprocket**, a fictional design and development agency. Developed as part of the Software Engineer Assessment for **Happy Cog**, the site demonstrates a robust CMS architecture, a strictly custom Tailwind CSS-integrated theme, and a sophisticated AI-assisted development workflow.
 
 The objective was to transform provided Figma designs into a fully functional, multi-page professional site within a 2-5 hour window, ensuring mobile responsiveness and a polished author experience.
 
